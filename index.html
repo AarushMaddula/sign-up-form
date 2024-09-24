@@ -8,13 +8,69 @@
 </head>
 <body>
 
-    <div class="background-image">
-        <img src="images/background.jpg" alt="space" height="100px">
-        <div>Photo by <a href="https://unsplash.com/@steve_g_?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Steve Gribble</a> on <a href="https://unsplash.com/photos/a-night-sky-with-a-star-filled-sky-dtP06SqRbZA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></div> 
+    <div class="background-image-container">
+        <img src="images/background.jpg" alt="space">
+        <figcaption>Photo by <a href="https://unsplash.com/@steve_g_?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Steve Gribble</a> on <a href="https://unsplash.com/photos/a-night-sky-with-a-star-filled-sky-dtP06SqRbZA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></figcaption> 
     </div>
 
-    <div>
+    <div class="container">
+        <div class="header">
+            <div>
+               This is totally a real online service! You know you need this in your life to help your realize your deepest dreams. Sign up <span class="italics">now</span> to get started.
+            </div>
+            
+            <div>
+                You <span class="italics">know</span> you want to.
+            </div>
+        </div>
+        <div class="form-content">                
+            <form action="#" method="post">
+                <fieldset>
+                    <legend><h1>Let's get Started!</h1></legend>
 
+                    <div>
+                        <div class="">
+                            <label for="first_name">First Name</label>
+                            <input type="text" id="first_name" name="first_name">
+                        </div>
+                        
+                        <div>
+                            <label for="last_name">Last Name</label>
+                            <input type="text" id="last_name" name="last_name">
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div>
+                             <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div>
+                            <label for="phone_number">Phone Number</label>
+                            <input type="number" id="phone_number" name="phone_number"> 
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div>
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password"> 
+                        </div>
+                        
+                        <div>
+                            <label for="retype-password">Retype Password</label>
+                            <input type="password" id="retype-password" name="retype-password">
+                        </div>
+                    </div>                    
+
+                    <button type="submit">Create Account</button>
+
+                    <div>
+                        Already have an account? <a href="#">Log in</a>
+                    </div>
+                </fieldset>                
+            </form>
+        </div>
     </div>
 
     
